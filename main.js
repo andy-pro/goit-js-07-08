@@ -136,7 +136,7 @@ function Tooltip($el) {
   offset.left += $el.width() + 12;
 
   var div = $('<div/>', {
-    class: 'tooltip',
+    'class': 'tooltip',
     text: $el.attr('title'),
     css: offset
   }).appendTo('body');
